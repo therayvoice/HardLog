@@ -1,0 +1,24 @@
+{
+  "name": "hardlog",
+  "version": "2.0.0",
+  "description": "A NodeJS library for logging to the console and keeping a hard record of whatever is logged to the console. Forget console.log(), forever!",
+  "main": "hardlog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/HardLog.git"
+  },
+  "keywords": [
+    "console.log",
+    "hardlog"
+  ],
+  "author": "Ray Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray6464/HardLog/issues"
+  },
+  "homepage": "https://github.com/Ray6464/HardLog#readme"
+}
