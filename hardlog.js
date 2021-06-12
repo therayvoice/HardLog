@@ -27,10 +27,12 @@ module.exports = {
     
     if (generalLogFile == "") {
       this.write("Log files needs to have a valid name!");
+      process.exit();
     }
 
     if (path.dirname(logFile) != ".") {
       this.write("Log files are only allowed in the root directory of your project!");
+      process.exit();
     }
 
     this.write(`Initialized HardLog v${version} with the following details:
